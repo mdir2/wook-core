@@ -1,5 +1,6 @@
 # wook-core
-DI, MVC 패턴을 구현한 경량 프레임워크입니다. 
+DI, MVC 패턴을 구현한 경량 프레임워크입니다.
+
   DI : web.xml의 context와 properties 파일을 통해 설정 정보를 읽어 들이고 프로젝트 pakage 내의 자바파일을 검색합니다. 
   그 후 리플렉션을 활용해 동적으로 객체를 생성하고 LinkedHashMap에 객체를 저장하고 어노테이션을 통해 객체를 주입합니다.
   
